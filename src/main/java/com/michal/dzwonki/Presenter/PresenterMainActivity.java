@@ -41,6 +41,7 @@ public class PresenterMainActivity implements InterfacePresenterMainActivity {
             Ringtone currentRingtone = RingtoneManager.getRingtone(view, manager.getRingtoneUri(i));
             Log.d(TAG, manager.getRingtoneUri(i)+ " "+currentRingtone.getAudioAttributes().toString() );
             //ringtones.add(currentRingtone.);
+            //test
         }
 
         view.showAllMusic(ringtones);
